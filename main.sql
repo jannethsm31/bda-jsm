@@ -1,9 +1,9 @@
 CREATE TABLE Personas (
-    id_persona INTEGER PRIMARY KEY AUTOINCREMENT,
-    nombre TEXT NOT NULL,
-    primer_apellido TEXT NOT NULL,
-    segundo_apellido TEXT NOT NULL,
-    email TEXT NOT NULL
+    id_persona integer PRIMARY KEY AUTOINCREMENT,
+    nombre varchar(50),
+    primer_apellido varchar(50),
+    segundo_apellido varchar(50),
+    email varchar(50)
 );
 
 
